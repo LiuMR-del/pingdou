@@ -1,0 +1,16 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.DS_Store
+.zcode/
+.env
+.env.*
+!.env.example
+*.log
+coverage/
+playwright-report/
+test-results/
+
+# Competitor screenshots are retained for local internal research only.
+/docs/assets/pixelbeads-desktop.png
+/docs/assets/pixelbeads-mobile.png

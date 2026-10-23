@@ -1,0 +1,17 @@
+{
+  "texture": {
+    "width": 256,
+    "height": 256,
+    "source": "existing project-authored PNG; no user image"
+  },
+  "cat-redrawn": {
+    "width": 400,
+    "height": 400,
+    "source": "Pillow reconstruction of src/image.ts cat geometry; not pixel-identical to browser Canvas"
+  },
+  "gradient": {
+    "width": 96,
+    "height": 96,
+    "source": "tests/fixtures/conversion.ts deterministic project-authored array"
+  }
+}

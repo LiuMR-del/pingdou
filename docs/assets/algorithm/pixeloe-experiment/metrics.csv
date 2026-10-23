@@ -1,0 +1,7 @@
+sample,grid,method,width,height,unique_rgb_cells,mae_vs_area_rgb,mean_edge_jump_luma,eye_dark_recall,non_eye_dark_rate,skin_rgb_std_mean,shirt_rgb_std_mean,fur_rgb_std_mean,shirt_unique_rgb_cells,fur_unique_rgb_cells
+selfmade_cartoon_texture,32,area,32,32,294,0.0,8.69254,0.0,0.07617,41.40538,21.4532,11.95373,137,24
+selfmade_cartoon_texture,32,pixeloe_contrast,32,32,89,12.52376,13.93145,0.0,0.16016,47.55073,48.03318,25.95139,40,12
+selfmade_cartoon_texture,32,pixeloe_weak_outline,32,32,159,10.57454,10.42238,0.0,0.10254,45.12288,32.56177,3.72238,84,12
+selfmade_cartoon_texture,64,area,64,64,484,0.0,6.55965,1.0,0.08753,43.06256,25.00745,11.14128,261,58
+selfmade_cartoon_texture,64,pixeloe_contrast,64,64,145,8.94938,6.88703,1.0,0.11418,45.58867,41.15557,18.65936,83,30
+selfmade_cartoon_texture,64,pixeloe_weak_outline,64,64,343,8.79867,6.26488,1.0,0.0956,45.4413,31.79502,4.2195,176,36

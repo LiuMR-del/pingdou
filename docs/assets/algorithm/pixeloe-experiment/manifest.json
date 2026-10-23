@@ -1,0 +1,71 @@
+{
+  "generated_at_utc": "2026-10-16T10:33:48.968999+00:00",
+  "sample": "selfmade_cartoon_texture",
+  "sample_description": "Deterministic 256x256 cartoon: gradient skin, small black eyes, fine-pattern shirt, deterministic furry patch.",
+  "input_is_user_image": false,
+  "uploaded": false,
+  "grids": [
+    32,
+    64
+  ],
+  "methods": [
+    "area",
+    "pixeloe_contrast",
+    "pixeloe_weak_outline"
+  ],
+  "conditions": {
+    "input_size": [
+      256,
+      256
+    ],
+    "output_grid": "square 32x32 or 64x64",
+    "area_interpolation": "OpenCV INTER_AREA",
+    "pixeloe_contrast": "PixelOE legacy contrast_based_downscale, target_size=grid",
+    "pixeloe_weak_outline": "PixelOE legacy outline_expansion(erode=1,dilate=1,k=patch,avg_scale=9,dist_scale=4) then contrast_based_downscale",
+    "color_quantization": "none; outputs are raw RGB downsampling references, not Demo56 or retail color-card mappings"
+  },
+  "pixeloe": {
+    "url": "https://github.com/KohakuBlueleaf/PixelOE",
+    "revision": "7ce444b36d3876a151d845d4493240e904454d89",
+    "source": "/private/tmp/pixeloe-research/PixelOE/src"
+  },
+  "dependencies": {
+    "numpy": "2.0.2",
+    "opencv": "4.13.0",
+    "pillow": "11.3.0",
+    "torch": "2.8.0"
+  },
+  "timings": [
+    {
+      "grid": 32,
+      "method": "area",
+      "elapsed_ms": 0.00446
+    },
+    {
+      "grid": 32,
+      "method": "pixeloe_contrast",
+      "elapsed_ms": 76.97971
+    },
+    {
+      "grid": 32,
+      "method": "pixeloe_weak_outline",
+      "elapsed_ms": 12.84975
+    },
+    {
+      "grid": 64,
+      "method": "area",
+      "elapsed_ms": 0.00092
+    },
+    {
+      "grid": 64,
+      "method": "pixeloe_contrast",
+      "elapsed_ms": 2.24083
+    },
+    {
+      "grid": 64,
+      "method": "pixeloe_weak_outline",
+      "elapsed_ms": 8.04804
+    }
+  ],
+  "metrics_file": "metrics.csv"
+}

@@ -1,0 +1,4 @@
+import * as Dialog from '@radix-ui/react-dialog';
+import { X } from 'lucide-react';
+import type { ReactNode } from 'react';
+export function Modal({open,onClose,title,description,children,wide=false}:{open:boolean;onClose():void;title:string;description?:string;children:ReactNode;wide?:boolean}) { return <Dialog.Root open={open} onOpenChange={v=>{if(!v)onClose();}}><Dialog.Portal><Dialog.Overlay className="modal-overlay"/><Dialog.Content className={`modal ${wide?'modal-wide':''}`} onCloseAutoFocus={e=>{e.preventDefault();document.querySelector<HTMLButtonElement>('.primary-action')?.focus();}}><header className="modal-header"><div><Dialog.Title>{title}</Dialog.Title><Dialog.Description>{description||'调整完成后返回工作台，作品会保留在本机。'}</Dialog.Description></div><Dialog.Close className="icon-button" aria-label="关闭"><X size={20}/></Dialog.Close></header>{children}</Dialog.Content></Dialog.Portal></Dialog.Root>; }

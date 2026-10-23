@@ -1,0 +1,51 @@
+[
+  {
+    "longSide": 16,
+    "maxColors": 8,
+    "width": 16,
+    "height": 16,
+    "hash": "ee3b1257607cab28ab55ad5e24012b4897ccf08a263faaab0bb724e646d80ee1"
+  },
+  {
+    "longSide": 32,
+    "maxColors": 8,
+    "width": 32,
+    "height": 32,
+    "hash": "7cc4679bac3025c0a33cd2028f797cc1dc31289780a3f208abea78702f924deb"
+  },
+  {
+    "longSide": 32,
+    "maxColors": 16,
+    "width": 32,
+    "height": 32,
+    "hash": "7cc4679bac3025c0a33cd2028f797cc1dc31289780a3f208abea78702f924deb"
+  },
+  {
+    "longSide": 48,
+    "maxColors": 8,
+    "width": 48,
+    "height": 48,
+    "hash": "46ec8d35aa886da0362bda4c92b40546ef3a30e213da08f68d804cad2bdc8d02"
+  },
+  {
+    "longSide": 48,
+    "maxColors": 16,
+    "width": 48,
+    "height": 48,
+    "hash": "46ec8d35aa886da0362bda4c92b40546ef3a30e213da08f68d804cad2bdc8d02"
+  },
+  {
+    "longSide": 64,
+    "maxColors": 8,
+    "width": 64,
+    "height": 64,
+    "hash": "475c7ca6bcf7537455cbebde335f160883c689d2cbb8fafb02fae206c104735d"
+  },
+  {
+    "longSide": 64,
+    "maxColors": 16,
+    "width": 64,
+    "height": 64,
+    "hash": "3bba096d2ec4a6ed39b1777fb8b7e59293cb2c27d01354c1049178e80bd908d7"
+  }
+]
